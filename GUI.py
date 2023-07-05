@@ -294,7 +294,7 @@ def start_gui():
     # It also creates a toplevel window, known as the root window, which serves as the main window of the application.
     root = Tk()
     # set the title
-    root.title('Personal Organizer')
+    root.title('personal Student Organizer')
     # A rectangular frame in Tk lets you organize and group widgets
     frame = ttk.Frame(root, padding=10)
     # # The grid() geometry manager organises widgets in a table-like structure in the parent widget.
