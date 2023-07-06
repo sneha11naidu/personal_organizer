@@ -305,6 +305,8 @@ def start_gui():
     button_style.configure('W.TButton', background='blue', foreground='black', font=('Arial', 14))
 
     ttk.Label(frame, text="Personal Organiser!").grid(column=0, row=0)
+    ttk.Label(frame, text="Student!").grid(column=6, row=5)
+    ttk.Label(frame, text="Teacher").grid(column=10, row=9)
     ttk.Button(frame, text="Modules", style='W.TButton', command=all_modules_event_handler).grid(column=1, row=0)
 
     # connect to mongodb and get the database cursor
