@@ -309,6 +309,11 @@ def start_gui():
     ttk.Label(frame, text="Teacher").grid(column=10, row=9)
     ttk.Button(frame, text="Modules", style='W.TButton', command=all_modules_event_handler).grid(column=1, row=0)
 
+    # main branch change 
+    
+
+
+    
     # connect to mongodb and get the database cursor
     DB_layer.get_db()
     root.mainloop()
